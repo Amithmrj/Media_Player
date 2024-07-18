@@ -144,8 +144,8 @@ const deleteDrag = (e,categoryid,videoid)=>{
       </Modal>
 
 
-      { allCategory.length>0?
-          allCategory.map((item)=>(
+      { allCategory?.length>0?
+          allCategory?.map((item)=>(
             <div className="border border-secondary w-100 p-3 rounded mt-3" droppable onDragOver={(e)=> dragOver(e)} onDrop={(e)=>videoDrop(e,item.id)}>
           <div className='d-flex justify-content-center align-items-center mb-2'>
             <p>{item.category}</p>
