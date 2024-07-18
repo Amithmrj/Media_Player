@@ -1,0 +1,22 @@
+text : https://www.youtube.com/watch?v=jpGWRiJAudY
+t= text.slice(-11)                                                 //to slice the last 11 letter
+console.log(t);        o/p will be---   jpGWRiJAudY
+
+text : https://www.youtube.com/watch?v=jpGWRiJAudY?festure=shared
+g= text.slice(-26,-15)
+console.log(g);          o/p will be---   jpGWRiJAudY
+
+
+if (text.endsWith("?festure=shared")) {
+    g= text.slice(-26,-15)
+console.log(g);      
+}
+else{
+    t= text.slice(-11)                                               
+console.log(t); 
+}
+----------------------------------------------
+
+
+
+
